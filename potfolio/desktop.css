@@ -1,0 +1,114 @@
+/*for desktop*/
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 60.66%;}
+.col-9{width: 75;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+/*navbar style start*/
+.nav-logo{
+    text-align: left;
+
+}
+.nav-heading h1{
+    text-align: right;
+   
+}
+
+.nav-manu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-manu a{
+    padding: 5px 10px;
+    margin: 20px 0px;
+    background-color: transparent;
+}
+
+/*navbar style end*/
+
+
+/*--profile start here--*/
+.profile .top-weather-icon{
+    right: 100px;
+    width: 120px;
+    transition: width 2s ,transform 3s;
+}
+.profile .top-weather-icon:hover{
+    width: 150px;
+}
+
+.profile-desc p{
+    color: rgb(124, 9, 124);
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom:10px ;
+}
+.profile .bottom-weather-icon{
+    left: 140px;
+    width: 120px;
+    transition: width 2s ,transform 3s;
+}
+.profile .bottom-weather-icon:hover{
+    width: 140px;
+}
+
+ /*--profile end here--*/
+
+ /*--about me start here--*/
+ .about-pic{
+     margin-top: 100px;
+ }
+ .about-pic img{
+     height: 270px;
+     width: 250px;
+
+ }
+ .about-desc p{
+     text-align: left;
+ }
+/*--about me end here--*/
+
+ /*--card dsign start--*/
+ .professional-experience{
+     margin: 0 auto;
+     padding: 30px;
+ }
+ 
+ 
+ /*--card dsign end--*/
+ 
+ .contact-me button{
+   
+    width: 150px;
+}
+ .achievement{
+     padding-right: 50px;
+
+ }
+ .more-way{
+     position: relative;
+ }
+
+ .media-button{
+     position: absolute;
+     left: 50%;
+     margin: 150px 15px;
+    
+     transform: translate(-50%, -50%);
+ }
+.footer-manu a{
+    display: inline;
+    padding: 7px;
+}
+.foot-desc{
+    font-size: 1rem;
+}
